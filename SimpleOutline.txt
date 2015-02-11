@@ -1,0 +1,15 @@
+- Basic conversion
+	Decimal to Binary
+	Decimal to Hex
+	Hex to Decimal
+
+- Floating point conversions
+	Binary
+
+- Signed/Unsigned bit representation
+
+- One's, Two's complement
+- Aritmetic operations
+	Binary sums
+	Hex sums
+
