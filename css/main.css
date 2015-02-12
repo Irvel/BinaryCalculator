@@ -2,13 +2,12 @@ body{
     font-family: "Droid Sans", sans-serif;
 }
 
-
 .custom-panel {
   border-style: solid;
   border-width: 1px;
   border-color: #d8d8d8;
   margin-left: 22%;
-  margin-right: 22%;
+  margin-right: 2%;
   margin-bottom: 1.25rem;
   padding: 1.25rem;  
   background: #f2f2f2;
@@ -49,3 +48,12 @@ body{
         color: #0078a0; }
   .custom-panel.radius {
     border-radius: 3px; }
+
+
+.horizontalTab {
+    height: 4rem;
+}
+
+.bExplanation {
+    margin-top: 5%;
+}
