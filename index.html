@@ -16,22 +16,66 @@
 <body>
 
   <ul class="tabs vertical" data-tab>
-    <li class="tab-title active"><a href="#panel11">Tab 1</a></li>
-    <li class="tab-title"><a href="#panel21">Tab 2</a></li>
-    <li class="tab-title"><a href="#panel31">Tab 3</a></li>
-    <li class="tab-title"><a href="#panel41">Tab 4</a></li>
+    <li class="tab-title active"><a href="#panel11">Basic Converisons</a></li>
+    <li class="tab-title"><a href="#panel21">Floating Point Conversions</a></li>
+    <li class="tab-title"><a href="#panel31">Signed / Unsigned integers</a></li>
+    <li class="tab-title"><a href="#panel41">One's & Two's complement</a></li>
+    <li class="tab-title"><a href="#panel51">Aritmetic operations</a></li>
   </ul>
 
 
   <div class="tabs-content">
 
-    <div class="content active" id="panel11" aria-hidden="true">
-    
+    <div class="content active" id="panel11">
       <div class="custom-panel">
-        <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe natus, consequuntur laborum.</h5>
-        <p>It has an easy to override visual style, and is appropriately subdued.</p>
-      </div>
 
+        <ul class="tabs horizontalTab" data-tab>
+          <li class="tab-title active"><a href="#panela">Binary</a></li>
+          <li class="tab-title"><a href="#panelb">Hexadecimal</a></li>
+        </ul>
+        <div class="tabs-content">
+          <div class="content active" id="panela">
+            
+            <form>
+              <div class="row">
+              <p>Enter any decimal or binary value into its corresponding field. The converted base will be generated automatically.</p>
+                <div class="large-6 columns">
+                  <label>Decimal
+                    <input type="number" placeholder="A decimal number e.g. 42" value="156512"/>
+                  </label>
+                </div>
+                <div class="large-6 columns">
+                  <label>Binary
+                    <input type="number" placeholder="A binary number e.g. 101" />
+                  </label>
+                </div>
+                <a href="#" class="button info bExplanation">What is happening?</a>
+              </div>
+            </form>
+            
+
+          </div>
+          <div class="content" id="panelb">
+            <form>
+              <div class="row">
+              <p>Enter any decimal or hexadecimal value into its corresponding field. The converted base will be generated automatically.</p>
+                <div class="large-6 columns">
+                  <label>Decimal
+                    <input type="number" placeholder="A decimal number e.g. 42" value="956511"/>
+                  </label>
+                </div>
+                <div class="large-6 columns">
+                  <label>Hexadecimal
+                    <input type="number" placeholder="A hex number e.g. F23D" />
+                  </label>
+                </div>
+                <a href="#" class="button info bExplanation">What is happening?</a>
+              </div>
+            </form>
+          </div>
+        </div>
+        
+      </div>
     </div>
     <div class="content" id="panel21">
       <p>This is the second panel of the basic tab example. This is the second panel of the basic tab example.</p>
@@ -42,6 +86,10 @@
     <div class="content" id="panel41">
       <p>This is the fourth panel of the basic tab example. This is the fourth panel of the basic tab example.</p>
     </div>
+    <div class="content" id="panel51">
+      <p>This is the fourth panel of the basic tab example. This is the fourth panel of the basic tab example.</p>
+    </div>
+
 
   </div>
 
